@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    <string-array name="rangeSlider">
+        <item>20</item>
+        <item>70</item>
+    </string-array>
+
+</resources>
