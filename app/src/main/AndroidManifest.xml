@@ -13,13 +13,13 @@
             android:theme="@style/Theme.BMICalculator"
             tools:targetApi="31">
         <activity
-                android:name=".Result"
+                android:name=".UI.Result"
                 android:exported="false"/>
         <activity
-                android:name=".home"
+                android:name=".UI.home"
                 android:exported="false"/>
         <activity
-                android:name=".splash_screen"
+                android:name=".UI.splash_screen"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

@@ -1,9 +1,10 @@
-package com.example.bmicalculator
+package com.example.bmicalculator.UI
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import com.example.bmicalculator.R
 
 class splash_screen : AppCompatActivity() {
     lateinit var mylogo: ImageView

@@ -1,18 +1,14 @@
-package com.example.bmicalculator
+package com.example.bmicalculator.UI
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.SeekBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.google.android.material.slider.RangeSlider
-import java.text.NumberFormat
-import java.util.*
+import com.example.bmicalculator.R
 
 class Result : AppCompatActivity() {
     lateinit var ad:TextView
@@ -111,7 +107,7 @@ class Result : AppCompatActivity() {
 
 
         back_home.setOnClickListener(View.OnClickListener {
-            startActivity(Intent(this,home::class.java))
+            startActivity(Intent(this, home::class.java))
         })
 
 

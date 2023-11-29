@@ -1,4 +1,4 @@
-package com.example.bmicalculator
+package com.example.bmicalculator.UI
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,7 +10,7 @@ import android.widget.ImageButton
 import android.widget.SeekBar
 import android.widget.TextView
 import android.widget.Toast
-import com.example.bmicalculator.Result
+import com.example.bmicalculator.R
 import java.lang.Exception
 
 class home : AppCompatActivity() {
@@ -129,7 +129,7 @@ class home : AppCompatActivity() {
                 }
                 else
                 {
-                    var intent=Intent(this,Result::class.java)
+                    var intent=Intent(this, Result::class.java)
                     intent.putExtra("BMI",(calculateBMI(value_wiegth.toDouble(),hieght.toDouble())))
                     startActivity(intent)
 
